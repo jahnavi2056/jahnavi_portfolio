@@ -974,14 +974,14 @@ const resumeData = {
     {
       title: "Dream Capture AI",
       description: "A deep learning system aimed at decoding and reconstructing dream content using EEG signals with CNN/RNN architectures.",
-      link: "https://github.com/jahnavi2056/DreamCaptureAl",
+      link: "https://github.com/jahnavi2056/DreamCaptureAI",
       tags: ["TensorFlow", "Keras", "EEG", "AI"],
       image: "https://thumbs.dreamstime.com/b/female-entrepreneur-dragging-text-dream-big-young-female-entrepreneur-dragging-stone-text-dream-big-stepping-up-105671789.jpg"
     },
     {
       title: "Prefix-Based Keyword API",
       description: "Developed and deployed a RESTful API that accepts a list of keywords and returns the smallest unique prefix for each.",
-      link: "https://github.com/jahnavi2056/prefix-management",
+      link: "https://github.com/jahnavi2056/prefix_management",
       tags: ["Node.js", "Express.js", "React.js", "Render"],
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW2rQ7oG7T5gLhnoutWxQO4FLZh4LngvxYfgXVZhn4WaSaSTU7l6Pnccz8w-OSR6FDJKU&usqp=CAU"
     },
@@ -995,7 +995,7 @@ const resumeData = {
     {
       title: "AI Design for Artisans",
       description: "Generates AI-assisted 3D prototype designs for pottery and handicrafts using the Stable Diffusion model.",
-      link: "https://github.com/jahnavi2056/Artisans-Stable-diffusion-model",
+      link: "https://github.com/jahnavi2056/Artisans_Stable_diffusion_model",
       tags: ["Stable Diffusion", "Hugging Face", "AI", "Design"],
       image: "https://www.shutterstock.com/image-photo/kolkata-india-november-26-smiling-600nw-788025343.jpg"
     },
