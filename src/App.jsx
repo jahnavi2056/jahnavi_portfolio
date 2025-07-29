@@ -1007,7 +1007,7 @@ const resumeData = {
         image: "https://www.nextiva.com/blog/wp-content/uploads/sites/10/2024/07/Conversational-AI-Chatbots.webp"
     },
     {
-        title: "Product bAsed E-Commerce Website",
+        title: "Product based E-Commerce Website",
         description: "a responsive online shopping platform with features like user login, product search, cart, and secure checkout.",
         link: "https://github.com/jahnavi2056/Product-based-E-Commerce-Website",
         tags: ["MERN stack (MongoDB, Express.js, React.js, Node.js)", "REST API", "Full-stack development"],
@@ -1138,7 +1138,7 @@ const Hero = () => {
                         <a href={`tel:${resumeData.contact.phone}`}><IconPhone className="icon" /></a>
                     </div>
                     <motion.a 
-                        href="/JP_RESUME.pdf" 
+                        href="/JP RESUME.pdf" 
                         download
                         className="btn btn-primary"
                         whileHover={{ scale: 1.05 }}
