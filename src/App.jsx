@@ -1309,7 +1309,7 @@ const Experience = () => {
 const Achievements = () => {
     return (
         <AnimatedSection id="achievements">
-            <h2 className="section-title">Achievements & <span className="text-highlight">Certifications</span></h2>
+            <h2 className="section-title">Achievements<span className="text-highlight"></span></h2>
             <div className="achievements-grid">
                 {resumeData.achievements.map((achievement, index) => (
                      <motion.div 
