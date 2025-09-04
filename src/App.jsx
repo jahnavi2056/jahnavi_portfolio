@@ -1131,7 +1131,7 @@ const Hero = () => {
                         <a href={`tel:${resumeData.contact.phone}`}><IconPhone className="icon" /></a>
                     </div>
                     <motion.a 
-                        href="/JP RESUME.pdf" 
+                        href="/JP RESUME FINAL.pdf" 
                         download
                         className="btn btn-primary"
                         whileHover={{ scale: 1.05 }}
