@@ -917,7 +917,7 @@ const resumeData = {
     hackerrank: "https://www.hackerrank.com/profile/jahnavi2056",
   },
   education: {
-    degree: "Bachelor of Engineering - Computer Science",
+    degree: "Bachelor of Engineering - Computer Science(Data Science)",
     institution: "Acharya Institute of Technology (VTU)",
     cgpa: "9.33",
   },
