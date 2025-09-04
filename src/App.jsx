@@ -984,7 +984,7 @@ const resumeData = {
       description: "A big data-driven health assistant that analyzes patient symptoms and history using the Hadoop ecosystem and PySpark.",
       link: "https://github.com/jahnavi2056/BDA",
       tags: ["Hadoop", "PySpark", "MongoDB", "Big Data"],
-      image: "https://cdn-cchkmpj.nitrocdn.com/CJXGnJvCvbQYOSNVvxpLvOYcHhpJDKbH/assets/images/optimized/rev-f4ff6bb/ossisto.com/wp-content/uploads/2023/05/Benefits-of-Healthcare-Virtual-Assistants.webp"
+      image: "https://media.licdn.com/dms/image/v2/D4D12AQEUWgPy-Ycszw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1682962938886?e=2147483647&v=beta&t=OHFSKFZTfLci20zuZz1meOO55ReMfebu1lc98RMxvVE"
     },
     {
       title: "AI Design for Artisans",
