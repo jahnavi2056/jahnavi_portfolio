@@ -356,21 +356,29 @@ const GlobalStyles = () => (
     .social-links {
       display: flex;
       justify-content: center;
-      gap: 1.5rem;
+      gap: 1rem;
       margin-bottom: 2.5rem;
     }
-
-    .social-links a {
-      transition: all 0.3s ease;
+    
+    .social-icon-wrapper {
+      background-color: #ffffff;
+      padding: 0.5rem;
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.5rem;
+      height: 2.5rem;
+      transition: transform 0.3s ease;
     }
 
-    .social-links a:hover {
-      transform: scale(1.25);
+    .social-icon-wrapper:hover {
+      transform: scale(1.1);
     }
 
     .social-links .icon {
-      width: 1.75rem;
-      height: 1.75rem;
+      width: 1.5rem;
+      height: 1.5rem;
     }
 
     .icon-inline {
@@ -842,15 +850,16 @@ const GlobalStyles = () => (
 // --- SVG Icon Components ---
 const IconGithub = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
-    <path fill="black" d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.11 1.05-.26 1.05-.62v-2.12c-3.344.72-4.04-1.61-4.04-1.61-.54-1.36-1.32-1.72-1.32-1.72-1.09-.74.08-.73.08-.73 1.2.08 1.83 1.23 1.83 1.23 1.07 1.83 2.81 1.3 3.49 1 .11-.77.42-1.3.77-1.61-2.67-.3-5.48-1.34-5.48-5.93 0-1.3.46-2.36 1.22-3.2-.12-.3-.53-1.52.12-3.15 0 0 1-.32 3.3.12 1.04-.29 2.15-.44 3.26-.44.92 0 1.84.15 2.76.44 2.3-.44 3.3-.12 3.3-.12.65 1.63.24 2.85.12 3.15.76.84 1.22 1.9 1.22 3.2 0 4.6-2.81 5.61-5.48 5.93.42.36.81 1.09.81 2.2V23.77c0 .36.45.73 1.05.62C20.562 21.8 24 17.302 24 12c0-6.627-5.373-12-12-12"/>
+    <path fill="#24292e" d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.11 1.05-.26 1.05-.62v-2.12c-3.344.72-4.04-1.61-4.04-1.61-.54-1.36-1.32-1.72-1.32-1.72-1.09-.74.08-.73.08-.73 1.2.08 1.83 1.23 1.83 1.23 1.07 1.83 2.81 1.3 3.49 1 .11-.77.42-1.3.77-1.61-2.67-.3-5.48-1.34-5.48-5.93 0-1.3.46-2.36 1.22-3.2-.12-.3-.53-1.52.12-3.15 0 0 1-.32 3.3.12 1.04-.29 2.15-.44 3.26-.44.92 0 1.84.15 2.76.44 2.3-.44 3.3-.12 3.3-.12.65 1.63.24 2.85.12 3.15.76.84 1.22 1.9 1.22 3.2 0 4.6-2.81 5.61-5.48 5.93.42.36.81 1.09.81 2.2V23.77c0 .36.45.73 1.05.62C20.562 21.8 24 17.302 24 12c0-6.627-5.373-12-12-12"/>
   </svg>
 );
 
 const IconLinkedin = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
-    <path fill="#0A66C2" d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-    <rect x="2" y="9" width="4" height="12" fill="#0A66C2"/>
-    <circle cx="4" cy="4" r="2" fill="#0A66C2"/>
+    <rect x="2" y="2" width="20" height="20" rx="4" fill="#0A66C2" />
+    <path fill="#ffffff" d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+    <rect x="2" y="9" width="4" height="12" fill="#ffffff"/>
+    <circle cx="4" cy="4" r="2" fill="#ffffff"/>
   </svg>
 );
 
@@ -865,7 +874,8 @@ const IconMail = (props) => (
 
 const IconPhone = (props) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
-        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" fill="#22d3ee"/>
+        <circle cx="12" cy="12" r="10" fill="#22c55e"/>
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" fill="#ffffff"/>
     </svg>
 );
 
@@ -1126,11 +1136,31 @@ const Hero = () => {
                     </h1>
                     <p className="hero-subtitle">{resumeData.title}</p>
                     <div className="social-links">
-                        <a href={resumeData.contact.github} target="_blank" rel="noopener noreferrer"><IconGithub className="icon" /></a>
-                        <a href={resumeData.contact.linkedin} target="_blank" rel="noopener noreferrer"><IconLinkedin className="icon" /></a>
-                        <a href={resumeData.contact.hackerrank} target="_blank" rel="noopener noreferrer"><IconHackerRank className="icon" /></a>
-                        <a href={`mailto:${resumeData.contact.email}`}><IconMail className="icon" /></a>
-                        <a href={`tel:${resumeData.contact.phone}`}><IconPhone className="icon" /></a>
+                        <a href={resumeData.contact.github} target="_blank" rel="noopener noreferrer">
+                            <div className="social-icon-wrapper">
+                                <IconGithub className="icon" />
+                            </div>
+                        </a>
+                        <a href={resumeData.contact.linkedin} target="_blank" rel="noopener noreferrer">
+                            <div className="social-icon-wrapper">
+                                <IconLinkedin className="icon" />
+                            </div>
+                        </a>
+                        <a href={resumeData.contact.hackerrank} target="_blank" rel="noopener noreferrer">
+                            <div className="social-icon-wrapper">
+                                <IconHackerRank className="icon" />
+                            </div>
+                        </a>
+                        <a href={`mailto:${resumeData.contact.email}`}>
+                            <div className="social-icon-wrapper">
+                                <IconMail className="icon" />
+                            </div>
+                        </a>
+                        <a href={`tel:${resumeData.contact.phone}`}>
+                            <div className="social-icon-wrapper">
+                                <IconPhone className="icon" />
+                            </div>
+                        </a>
                     </div>
                     <motion.a 
                         href="/JP RESUME FINAL.pdf" 
@@ -1369,11 +1399,31 @@ const Footer = () => {
         <footer className="footer">
             <div className="container footer-container">
                 <div className="social-links">
-                    <a href={resumeData.contact.github} target="_blank" rel="noopener noreferrer"><IconGithub className="icon" /></a>
-                    <a href={resumeData.contact.linkedin} target="_blank" rel="noopener noreferrer"><IconLinkedin className="icon" /></a>
-                    <a href={resumeData.contact.hackerrank} target="_blank" rel="noopener noreferrer"><IconHackerRank className="icon" /></a>
-                    <a href={`mailto:${resumeData.contact.email}`}><IconMail className="icon" /></a>
-                    <a href={`tel:${resumeData.contact.phone}`}><IconPhone className="icon" /></a>
+                    <a href={resumeData.contact.github} target="_blank" rel="noopener noreferrer">
+                        <div className="social-icon-wrapper">
+                            <IconGithub className="icon" />
+                        </div>
+                    </a>
+                    <a href={resumeData.contact.linkedin} target="_blank" rel="noopener noreferrer">
+                        <div className="social-icon-wrapper">
+                            <IconLinkedin className="icon" />
+                        </div>
+                    </a>
+                    <a href={resumeData.contact.hackerrank} target="_blank" rel="noopener noreferrer">
+                        <div className="social-icon-wrapper">
+                            <IconHackerRank className="icon" />
+                        </div>
+                    </a>
+                    <a href={`mailto:${resumeData.contact.email}`}>
+                        <div className="social-icon-wrapper">
+                            <IconMail className="icon" />
+                        </div>
+                    </a>
+                    <a href={`tel:${resumeData.contact.phone}`}>
+                        <div className="social-icon-wrapper">
+                            <IconPhone className="icon" />
+                        </div>
+                    </a>
                 </div>
                 <p>&copy; {new Date().getFullYear()} {resumeData.name}. All Rights Reserved.</p>
                 <p className="footer-credits">Designed & Built with ❤️</p>
