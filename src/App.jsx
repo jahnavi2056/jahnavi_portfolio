@@ -920,12 +920,11 @@ const resumeData = {
     github: "https://github.com/jahnavi2056",
     linkedin: "https://www.linkedin.com/in/jahnavi-j-p-a70a2a260",
     hackerrank: "https://www.hackerrank.com/profile/jahnavi2056",
-    leetcode: "https://leetcode.com/u/janu2004/",
   },
   education: {
     degree: "Bachelor of Engineering - Computer Science",
     institution: "Acharya Institute of Technology (VTU)",
-    cgpa: "9.56",
+    cgpa: "9.33",
   },
   summary: "A passionate and driven Computer Science engineer with a strong foundation in full-stack web development and a keen interest in Artificial Intelligence and Machine Learning. Proven ability to lead projects, collaborate in teams, and deliver high-quality results in fast-paced environments. Also a dedicated athlete with national-level achievements, demonstrating discipline and a competitive spirit.",
   skills: [
